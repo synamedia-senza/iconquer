@@ -1,0 +1,25 @@
+body {
+	margin: 0px;
+	background-color: white;
+}
+
+#main {
+  position: relative;
+  width: 1820px;
+  height: 950px;
+  zoom: 105.5%;
+}
+
+.background {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+
+.country {
+  position: absolute;
+}
+
+.selected {
+  filter: sepia(100%) saturate(300%) brightness(70%) hue-rotate(310deg) drop-shadow(0px 10px 15px black);
+}
